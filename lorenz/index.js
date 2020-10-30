@@ -32,7 +32,7 @@ function draw() {
   scale(7);
   stroke(255);
   noFill();
-  translate(-20, 0, -20);
+  translate(-20, 0, -10);
 
   rotateY(millis() / 20000);
 
