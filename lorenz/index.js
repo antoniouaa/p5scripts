@@ -29,12 +29,12 @@ function draw() {
   if (points.length > 5000) {
     points.shift();
   }
-  translate(-100, 0, -80);
   scale(7);
   stroke(255);
   noFill();
+  translate(-20, 0, -20);
 
-  rotateY(PI / 3);
+  rotateY(millis() / 20000);
 
   let h = 0;
   strokeWeight(5);
